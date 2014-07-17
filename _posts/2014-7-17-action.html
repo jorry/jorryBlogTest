@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>* Mester.
+
+   protected void animateDragged()
+  {
+    View v = getChildAt(this.dragged);
+    
+    int x = getCoorFromIndex(this.dragged).x</title>
+
+</head>
+<body>
+<ul>
+<li><p>Mester.</p>
+
+<p> protected void animateDragged()
+{
+  View v = getChildAt(this.dragged);</p>
+
+<p>  int x = getCoorFromIndex(this.dragged).x + this.childSize / 2; int y = getCoorFromIndex(this.dragged).y + this.childSize / 2;</p>
+
+<p>   int l = x - 3 * this.childSize / 4; int t = y - 3 * this.childSize / 4;</p>
+
+<p>   v.layout(l, t, l + this.childSize * 3 / 2, t + this.childSize * 3 / 2);</p>
+
+<p>   AnimationSet animSet = new AnimationSet(true);</p>
+
+<p>  ScaleAnimation scale = new ScaleAnimation(0.667F, 1.0F, 0.667F, 1.0F, this.childSize * 3 / 4, this.childSize * 3 / 4);</p>
+
+<p>  scale.setDuration(animT);</p>
+
+<p>  AlphaAnimation alpha = new AlphaAnimation(1.0F, 0.5F);</p>
+
+<p>  alpha.setDuration(animT);</p>
+
+<p>  animSet.addAnimation(scale);</p>
+
+<p>  animSet.addAnimation(alpha);</p>
+
+<p>  animSet.setFillEnabled(true);</p>
+
+<p>  animSet.setFillAfter(true);</p>
+
+<p>  v.clearAnimation();</p>
+
+<p>  v.startAnimation(animSet);
+}</p></li>
+<li>Gum.</li>
+<li>Booze.</li>
+</ul>
+
+</body>
+</html>
