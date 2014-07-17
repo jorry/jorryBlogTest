@@ -1,0 +1,22 @@
+---
+layout: default
+title: android InputStream 正确读取 
+---
+	<h2>{{page.title}}</h2>
+	　　<p>
+	            ByteArrayOutputStream swapStream = new ByteArrayOutputStream();
+<<<<<<< HEAD
+
+		byte[] buff = new byte[8192]; // buff用于存放循环读取的临时数据
+		int rc = 0;
+=======
+				\r\n
+				byte[] buff = new byte[8192]; // buff用于存放循环读取的临时数据
+				int rc = 0;
+>>>>>>> ce39a18ef2def3b5444b29b67d82d033c79a6fdb
+				    while ((rc = is.read(buff, 0, 1024)) > 0) {
+					   swapStream.write(buff, 0, rc);
+					}
+			        byte[] buffer = swapStream.toByteArray(); 
+				// in_b为转换之后的结果?
+　　<p>{{ page.date | date_to_string }}
